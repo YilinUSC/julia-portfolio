@@ -28,7 +28,7 @@
   --manatee: hsla(219, 10%, 62%, 1);
   --black-coral: hsla(220, 12%, 43%, 1);
   --cadet-blue-crayola_a20: hsla(222, 23%, 71%, 0.2);
-  --cinnamon-satin: hsla(344, 53%, 62%, 1);
+  --cinnamon-satin: hsla(203, 78%, 73%, 1); /* 更新为浅蓝色 */
   --raisin-black: hsla(216, 14%, 14%, 1);
   --raisin-black_a6: hsla(216, 14%, 14%, 0.06);
   --gunmetal: hsla(214, 15%, 21%, 1);
@@ -378,15 +378,12 @@ body.nav-active { overflow: hidden; }
 }
 
 .hero-banner .w-100 {
-  mask-image: url("../images/Blob.svg");
-  -webkit-mask-image: url("../images/Blog.svg");
-  mask-repeat: no-repeat;
-  -webkit-mask-repeat: no-repeat;
-  mask-position: center;
-  -webkit-mask-position: center;
-  mask-size: auto;
-  -webkit-mask-size: auto;
+  mask-image: none;
+  -webkit-mask-image: none;
+  border-radius: 50%;  /* 使图片呈现为圆形 */
 }
+
+
 
 .hero .shape {
   position: absolute;

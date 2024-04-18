@@ -33,13 +33,13 @@ aria-label = open menu
 
 #---------- HERO ----------#
 
-alt = Julia
+alt = Yilin
 
-alt = 250+ Projects Done
+//alt = 250+ Projects Done
 
 I'm User Interface Designer & Developer.
 
-Hello! I'm Julia, a freelance user interface designer & developer based in London. I’m very passionate about the work that I do.
+Hello! I'm Yilin, a freelance user interface designer & developer based in London. I’m very passionate about the work that I do.
 
 See My Works
 Contact Me
